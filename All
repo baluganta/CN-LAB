@@ -1,3 +1,40 @@
+//crc
+Overall, the Data Link Layer plays a crucial role in ensuring reliable(accurate) data transfer and flow control mechanisms within a network. By implementing error checking and correction methods such as CRC, it helps to maintain data integrity (unchanged or uncorrupted)and efficiency in communication between nodes.
+
+//Bit Stuffing
+This technique ensures that the receiver can easily identify the start and end of each frame, even if the data within the frame contains sequences of five consecutive ones. The receiver will detect when there are five consecutive ones in the incoming data and automatically remove the stuffed bit to reconstruct the original data.
+Overall, bit stuffing helps to maintain synchronization between sender and receiver and prevent errors in data transmission. It is commonly used in communication protocols such as HDLC (High-Level Data Link Control) and Ethernet.
+
+//Character Stuffing
+Character stuffing is a technique used in computer networking to ensure that transmitted data is properly framed and can be correctly interpreted by the receiving system. It involves inserting special control characters into the data stream to mark the boundaries of individual frames or packets.
+
+//Stop and Wait protocol
+This protocol ensures that frames are delivered successfully and in the correct order, preventing data loss or corruption. It also helps in controlling the flow of data between sender and receiver to ensure efficient communication.
+
+// Implementation Distance vector algorithm
+The distance vector algorithm is a distributed routing algorithm where each node maintains a table of distances to all other nodes in the network and periodically exchanges these tables with neighboring nodes to converge on the shortest paths to all destinations.
+
+// Implementation of Dijkstra’s algorithm.
+Dijkstra's algorithm is a graph search algorithm that finds the shortest path between nodes in a weighted graph, ensuring optimality by iteratively selecting the node with the smallest known distance from the start node until all nodes have been visited.
+
+//Implementation of Congestion control using leaky bucket algorithms.
+The leaky bucket algorithm is a congestion control technique that regulates the flow of data by allowing a predetermined rate of traffic to pass through a buffer while discarding excess data, preventing network congestion.
+
+//Implementation using Socket TCP both client and server.
+Socket TCP implementation involves creating a client and server program that establish a reliable, connection-oriented communication channel over a network, enabling data exchange through streams of bytes with features like error detection, flow control, and congestion control.
+
+//Implementation using Socket UDP both client and server programs
+The Socket UDP implementation entails creating both client and server programs that communicate over a connectionless, unreliable network protocol, allowing for fast transmission of data packets with minimal overhead and latency.
+
+
+
+
+
+
+
+
+
+
 Task-1
  Study of basic network commands and network configuration commands. 
 ping, tracert, ipconfig, hostname, nslookup, netstat
